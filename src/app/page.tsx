@@ -2,16 +2,16 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="rs-hide-scrollbars text-black bg-yellow-600 absolute left-0 top-0 h-[100dvh] w-full overflow-scroll flex flex-col items-center">
+    <div className="rs-hide-scrollbars text-black jwprimarycolor absolute left-0 top-0 h-[100dvh] w-full overflow-scroll flex flex-col items-center text-center">
       <div>
         <div>
           <picture>
-            <img className="w-16 h-auto" src="/images/jw-type-black.svg" />
+            <img className="w-60 h-auto" src="/images/jw-type-black.svg" />
           </picture>
         </div>
         <div>
           <picture>
-            <img className="w-16 h-auto" src="/images/jw-mark-black.svg" />
+            <img className="w-60 h-auto" src="/images/jw-mark-black.svg" />
           </picture>
         </div>
       </div>
@@ -32,8 +32,8 @@ export default function Home() {
         <div>
           <div>BOOK US:</div>
           <div>
-            We are always looking to play for any parties, block parties,
-            restaraunts, etc. Please contact us for booking details!
+            Always looking to play for any parties, events, restaraunts, etc.
+            Please contact us for booking details!
           </div>
         </div>
         <div>
@@ -48,7 +48,17 @@ export default function Home() {
             <div>Will Reinholdt - Drums</div>
           </div>
         </div>
-        <div>inst you email venmo</div>
+        <div>
+          <picture>
+            <img className="w-16 h-auto" src="/images/instabutton.svg" />
+          </picture>
+          <picture>
+            <img className="w-16 h-auto" src="/images/venmobutton.svg" />
+          </picture>
+          <picture>
+            <img className="w-16 h-auto" src="/images/youtubebutton.svg" />
+          </picture>
+        </div>
       </div>
     </div>
   );
