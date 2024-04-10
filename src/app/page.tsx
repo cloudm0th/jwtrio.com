@@ -2,47 +2,146 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="rs-hide-scrollbars text-black jwprimarycolor absolute left-0 top-0 h-[100dvh] w-full overflow-scroll flex flex-col items-center text-center">
-      <div>
-        <div className="mt-4 relative z-0">
-          <img
-            className="relative w-72 h-auto z-20"
-            src="/images/jw-type-black.svg"
-          />
-          <img
-            className="w-72 h-auto relative -top-[100px] z-10"
-            src="/images/jw-type-shadow.svg"
-          />
+    <div className="hide-scrollbars rs-hide-scrollbars text-black jwprimarycolor absolute left-0 top-0 h-[100dvh] w-full overflow-scroll flex flex-col items-center text-center">
+      <div className="flex flex-col justify-center">
+        <div className="mx-auto">
+          <div className="mt-4 relative z-0">
+            <img
+              className="relative w-72 h-auto z-20"
+              src="/images/jw-type-black.svg"
+            />
+            <img
+              className="w-72 h-auto relative -top-[100px] z-10"
+              src="/images/jw-type-shadow.svg"
+            />
+          </div>
+          <div className="-mt-24 pb-6">
+            <img className="w-72 h-auto" src="/images/jw-mark-black.svg" />
+          </div>
         </div>
-        <div className="-mt-24">
-          <img className="w-72 h-auto" src="/images/jw-mark-black.svg" />
+        <div className="h-10 hide-scrollbars w-full overflow-hidden">
+          <div className="flex">
+            <img
+              className="inline-block h-10 w-auto"
+              src="/images/exclamation-box-dark.svg"
+            />
+            <img
+              className="inline-block h-10 w-auto"
+              src="/images/exclamation-box-light.svg"
+            />
+            <img
+              className="inline-block h-10 w-auto"
+              src="/images/exclamation-box-dark.svg"
+            />
+            <img
+              className="inline-block h-10 w-auto"
+              src="/images/exclamation-box-light.svg"
+            />
+            <img
+              className="inline-block h-10 w-auto"
+              src="/images/exclamation-box-dark.svg"
+            />
+            <img
+              className="inline-block h-10 w-auto"
+              src="/images/exclamation-box-light.svg"
+            />
+            <img
+              className="inline-block h-10 w-auto"
+              src="/images/exclamation-box-dark.svg"
+            />
+            <img
+              className="inline-block h-10 w-auto"
+              src="/images/exclamation-box-light.svg"
+            />
+            <img
+              className="inline-block h-10 w-auto"
+              src="/images/exclamation-box-dark.svg"
+            />
+            <img
+              className="inline-block h-10 w-auto"
+              src="/images/exclamation-box-light.svg"
+            />
+            <img
+              className="inline-block h-10 w-auto"
+              src="/images/exclamation-box-dark.svg"
+            />
+            <img
+              className="inline-block h-10 w-auto"
+              src="/images/exclamation-box-light.svg"
+            />
+            <img
+              className="inline-block h-10 w-auto"
+              src="/images/exclamation-box-dark.svg"
+            />
+            <img
+              className="inline-block h-10 w-auto"
+              src="/images/exclamation-box-light.svg"
+            />
+            <img
+              className="inline-block h-10 w-auto"
+              src="/images/exclamation-box-dark.svg"
+            />
+            <img
+              className="inline-block h-10 w-auto"
+              src="/images/exclamation-box-light.svg"
+            />
+            <img
+              className="inline-block h-10 w-auto"
+              src="/images/exclamation-box-dark.svg"
+            />
+            <img
+              className="inline-block h-10 w-auto"
+              src="/images/exclamation-box-light.svg"
+            />
+            <img
+              className="inline-block h-10 w-auto"
+              src="/images/exclamation-box-dark.svg"
+            />
+            <img
+              className="inline-block h-10 w-auto"
+              src="/images/exclamation-box-light.svg"
+            />
+            <img
+              className="inline-block h-10 w-auto"
+              src="/images/exclamation-box-dark.svg"
+            />
+            <img
+              className="inline-block h-10 w-auto"
+              src="/images/exclamation-box-light.svg"
+            />
+            <img
+              className="inline-block h-10 w-auto"
+              src="/images/exclamation-box-dark.svg"
+            />
+            <img
+              className="inline-block h-10 w-auto"
+              src="/images/exclamation-box-light.svg"
+            />
+            <img
+              className="inline-block h-10 w-auto"
+              src="/images/exclamation-box-dark.svg"
+            />
+            <img
+              className="inline-block h-10 w-auto"
+              src="/images/exclamation-box-light.svg"
+            />
+            <img
+              className="inline-block h-10 w-auto"
+              src="/images/exclamation-box-dark.svg"
+            />
+            <img
+              className="inline-block h-10 w-auto"
+              src="/images/exclamation-box-light.svg"
+            />
+            <img
+              className="inline-block h-10 w-auto"
+              src="/images/exclamation-box-dark.svg"
+            />
+          </div>
         </div>
       </div>
-      <div className="flex justify-center mt-4 bg-slate-400">
-        <img className="h-10" src="/images/exclamation-box-dark.svg" />
-        <img className="h-10" src="/images/exclamation-box-light.svg" />
-        <img className="h-10" src="/images/exclamation-box-dark.svg" />
-        <img className="h-10" src="/images/exclamation-box-light.svg" />
-        <img className="h-10" src="/images/exclamation-box-dark.svg" />
-        <img className="h-10" src="/images/exclamation-box-light.svg" />
-        <img className="h-10" src="/images/exclamation-box-dark.svg" />
-        <img className="h-10" src="/images/exclamation-box-light.svg" />
-        <img className="h-10" src="/images/exclamation-box-dark.svg" />
-        <img className="h-10" src="/images/exclamation-box-light.svg" />
-        <img className="h-10" src="/images/exclamation-box-dark.svg" />
-        <img className="h-10" src="/images/exclamation-box-light.svg" />
-        <img className="h-10" src="/images/exclamation-box-dark.svg" />
-        <img className="h-10" src="/images/exclamation-box-light.svg" />
-        <img className="h-10" src="/images/exclamation-box-dark.svg" />
-        <img className="h-10" src="/images/exclamation-box-light.svg" />
-        <img className="h-10" src="/images/exclamation-box-dark.svg" />
-        <img className="h-10" src="/images/exclamation-box-light.svg" />
-        <img className="h-10" src="/images/exclamation-box-dark.svg" />
-        <img className="h-10" src="/images/exclamation-box-light.svg" />
-      </div>
-      <div className="bg-white border border-t-8 border-t-black grow w-full pt-4 px-4">
+      <div className="bg-white border border-t-8 border-t-black grow w-full py-8 px-4">
         <div className="max-w-lg mx-auto">
-          {" "}
           <div>
             <div className="font-black">ABOUT THE JAZZARDOUS WASTE TRIO:</div>
             <div className="mt-1">
