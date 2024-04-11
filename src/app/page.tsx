@@ -186,7 +186,7 @@ export default function Home() {
                 src="/images/insta-button-color.svg"
               />
             </a>
-            <a href="#" target="_blank">
+            <a href="https://venmo.com/u/koiroy" target="_blank">
               <img
                 className="h-auto w-16"
                 src="/images/venmo-button-color.svg"
