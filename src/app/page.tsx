@@ -1,4 +1,5 @@
-import Image from "next/image";
+import React from "react";
+import { BsFillTelephoneFill } from "react-icons/bs";
 
 export default function Home() {
   return (
@@ -191,6 +192,10 @@ export default function Home() {
                 className="h-auto w-16"
                 src="/images/venmo-button-color.svg"
               />
+              <span className="flex items-center justify-center gap-1.5 whitespace-nowrap pt-1 text-xs">
+                <BsFillTelephoneFill className="" />
+                <span>...8749</span>
+              </span>
             </a>
             <a href="https://www.youtube.com/@JAZZARDOUSWASTE" target="_blank">
               <img
