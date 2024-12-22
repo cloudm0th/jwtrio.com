@@ -6,8 +6,8 @@ const inter = Inter({ subsets: ["latin"] });
 const lexend = Lexend({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Jazzardous Waste Trio",
-  description: "The official website of the Jazzardous Waste Jazz Trio.",
+  title: "Jazzardous Waste",
+  description: "The official website of Jazzardous Waste.",
 };
 
 export default function RootLayout({
