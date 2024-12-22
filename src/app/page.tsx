@@ -145,15 +145,15 @@ export default function Home() {
             <div className="text-center font-black">
               ABOUT THE JAZZARDOUS WASTE TRIO:
             </div>
-            <div className="mt-1">
-              We are Jazzardous Waste - A jazz trio made up of students from the
+            <div className="mt-1 text-center">
+              We are Jazzardous Waste - A jazz band made up of students from the
               Oak Park & River Forest high school music program, native to the
               Chicago land area.
             </div>
           </div>
           <div>
             <div className="mt-4 text-center font-black">BOOK US:</div>
-            <div className="mt-1">
+            <div className="mt-1 text-center">
               Always looking to play for any parties, events, restaraunts, etc.
               Please contact us for booking details!
             </div>
@@ -170,10 +170,11 @@ export default function Home() {
           <div className="mt-4">
             <div className="text-center font-black ">MEMBERS:</div>
             <div className="flex justify-center">
-              <div className="mt-1">
+              <div className="mt-1 text-center">
                 <div>Roy Koerner - Piano</div>
                 <div>Braden Estanilla - Bass</div>
                 <div>Will Reinholdt - Drums</div>
+                <div>Kevin Cabrera - Saxophone</div>
               </div>
             </div>
           </div>
