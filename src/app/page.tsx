@@ -146,7 +146,7 @@ export default function Home() {
               ABOUT THE JAZZARDOUS WASTE TRIO:
             </div>
             <div className="mt-1 text-center">
-              We are Jazzardous Waste - A jazz band made up of students from the
+              We are Jazzardous Waste - A jazz trio made up of students from the
               Oak Park & River Forest high school music program, native to the
               Chicago land area.
             </div>
