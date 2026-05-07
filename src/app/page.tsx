@@ -174,7 +174,6 @@ export default function Home() {
                 <div>Roy Koerner - Piano</div>
                 <div>Braden Estanilla - Bass</div>
                 <div>Will Reinholdt - Drums</div>
-                <div>Kevin Cabrera - Saxophone</div>
               </div>
             </div>
           </div>
